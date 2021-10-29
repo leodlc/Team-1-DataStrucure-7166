@@ -1,0 +1,4 @@
+﻿  UnitTestSumaFracciones.cpp
+C:\Users\Asus\Documents\Tareas Espe\SemestreOctubre-Marzo2021\Estructura De Datos\UnitTestSumaFracciones\UnitTestSumaFracciones.cpp(14,8): error C2065: 'num': identificador no declarado
+C:\Users\Asus\Documents\Tareas Espe\SemestreOctubre-Marzo2021\Estructura De Datos\UnitTestSumaFracciones\UnitTestSumaFracciones.cpp(14,14): error C2065: 'den': identificador no declarado
+C:\Users\Asus\Documents\Tareas Espe\SemestreOctubre-Marzo2021\Estructura De Datos\UnitTestSumaFracciones\UnitTestSumaFracciones.cpp(15,5): error C2065: 'get': identificador no declarado
