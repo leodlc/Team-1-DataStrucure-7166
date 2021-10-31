@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Asus/Desktop/Repositorio Grupo/Deber-grupo-1/I-PARCIAL/Tareas/suma de fracciones codigo
+# Install script for directory: C:/Users/Asrock/Documents/SEMESTRE OCT21-MAR22/Estructura de datos/Team-1-DataStrucure-7166/I-PARCIAL/Tareas/Tarea_1SumaFracciones/SumaFracciones
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/Asus/Desktop/Repositorio Grupo/Deber-grupo-1/I-PARCIAL/Tareas/suma de fracciones codigo/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/Asrock/Documents/SEMESTRE OCT21-MAR22/Estructura de datos/Team-1-DataStrucure-7166/I-PARCIAL/Tareas/Tarea_1SumaFracciones/SumaFracciones/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Asus/Desktop/Repositorio Grupo/Deber-grupo-1/I-PARCIAL/Tareas/suma de fracciones codigo/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Asrock/Documents/SEMESTRE OCT21-MAR22/Estructura de datos/Team-1-DataStrucure-7166/I-PARCIAL/Tareas/Tarea_1SumaFracciones/SumaFracciones/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

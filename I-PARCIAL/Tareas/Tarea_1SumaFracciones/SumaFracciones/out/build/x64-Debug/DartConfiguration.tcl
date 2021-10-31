@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/Asus/Desktop/Repositorio Grupo/Deber-grupo-1/I-PARCIAL/Tareas/suma de fracciones codigo
-BuildDirectory: C:/Users/Asus/Desktop/Repositorio Grupo/Deber-grupo-1/I-PARCIAL/Tareas/suma de fracciones codigo/out/build/x64-Debug
+SourceDirectory: C:/Users/Asrock/Documents/SEMESTRE OCT21-MAR22/Estructura de datos/Team-1-DataStrucure-7166/I-PARCIAL/Tareas/Tarea_1SumaFracciones/SumaFracciones
+BuildDirectory: C:/Users/Asrock/Documents/SEMESTRE OCT21-MAR22/Estructura de datos/Team-1-DataStrucure-7166/I-PARCIAL/Tareas/Tarea_1SumaFracciones/SumaFracciones/out/build/x64-Debug
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: LAPTOP-GR3B8C4C
+Site: DESKTOP-R577RLQ
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Win32-ninja
@@ -26,8 +26,8 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Visual Studio 2019/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "C:/Users/Asus/Desktop/Repositorio Grupo/Deber-grupo-1/I-PARCIAL/Tareas/suma de fracciones codigo"
-MakeCommand: "C:\Visual Studio 2019\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
+ConfigureCommand: "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "C:/Users/Asrock/Documents/SEMESTRE OCT21-MAR22/Estructura de datos/Team-1-DataStrucure-7166/I-PARCIAL/Tareas/Tarea_1SumaFracciones/SumaFracciones"
+MakeCommand: "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -62,7 +62,7 @@ UpdateOptions:
 UpdateType: 
 
 # Compiler info
-Compiler: C:/Visual Studio 2019/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe
+Compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe
 CompilerVersion: 19.29.30136.0
 
 # Dynamic analysis (MemCheck)
