@@ -6,5 +6,5 @@ template <typename T>
 class Operacion
 {
 public:
-    void multiplicar(T num1, T num2, Numero<T> *res);
+    T multiplicar(T num1, T num2);
 };

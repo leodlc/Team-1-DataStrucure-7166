@@ -83,7 +83,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/u/progra/Estructura_de_Datos/2/New folder/extras/Extra 1/build"
+			"value" : "d:/u/progra/Estructura_de_Datos/2/New folder/extras/New folder/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -679,7 +679,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/u/progra/Estructura_de_Datos/2/New folder/extras/Extra 1"
+			"value" : "D:/u/progra/Estructura_de_Datos/2/New folder/extras/New folder"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -691,7 +691,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/Multiplicacion"
+			"value" : "C:/Program Files (x86)/Extra1"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -911,7 +911,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Multiplicacion"
+			"value" : "Extra1"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1590,6 +1590,30 @@
 			"value" : "1500"
 		},
 		{
+			"name" : "Extra1_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/u/progra/Estructura_de_Datos/2/New folder/extras/New folder/build"
+		},
+		{
+			"name" : "Extra1_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "D:/u/progra/Estructura_de_Datos/2/New folder/extras/New folder"
+		},
+		{
 			"name" : "GITCOMMAND",
 			"properties" : 
 			[
@@ -1668,30 +1692,6 @@
 			],
 			"type" : "FILEPATH",
 			"value" : ""
-		},
-		{
-			"name" : "Multiplicacion_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "D:/u/progra/Estructura_de_Datos/2/New folder/extras/Extra 1/build"
-		},
-		{
-			"name" : "Multiplicacion_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "D:/u/progra/Estructura_de_Datos/2/New folder/extras/Extra 1"
 		},
 		{
 			"name" : "P4COMMAND",

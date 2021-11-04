@@ -1,6 +1,6 @@
-CMakeFiles/Multiplicacion.dir/Numeros.cpp.obj: \
- D:\u\progra\Estructura_de_Datos\2\New\ folder\extras\Extra\ 1\Numeros.cpp \
- D:\u\progra\Estructura_de_Datos\2\New\ folder\extras\Extra\ 1\Numeros.h \
+CMakeFiles/Extra1.dir/Numeros.cpp.obj: \
+ D:\u\progra\Estructura_de_Datos\2\New\ folder\extras\New\ folder\Numeros.cpp \
+ D:\u\progra\Estructura_de_Datos\2\New\ folder\extras\New\ folder\Numeros.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \

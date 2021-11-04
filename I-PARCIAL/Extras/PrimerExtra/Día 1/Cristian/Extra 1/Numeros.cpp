@@ -13,6 +13,8 @@ void Numero<T>::setNum(T newNum)
 }
 
 template <typename T>
-void imprimir(Numero<T> num){
+void Numero<T>::imprimir(){
     std::cout<<num<<" ";
 }
+
+template class Numero<float>;

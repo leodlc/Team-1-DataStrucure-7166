@@ -1,8 +1,8 @@
-# Install script for directory: D:/u/progra/Estructura_de_Datos/2/New folder/extras/Extra 1
+# Install script for directory: D:/u/progra/Estructura_de_Datos/2/New folder/extras/New folder
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Multiplicacion")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Extra1")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/u/progra/Estructura_de_Datos/2/New folder/extras/Extra 1/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/u/progra/Estructura_de_Datos/2/New folder/extras/New folder/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

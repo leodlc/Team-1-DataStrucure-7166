@@ -1,7 +1,11 @@
 #include "Operaciones.h"
 
 template <typename T>
-void multiplicar(T num1, T num2, Numero<T> *res)
+T multiplicar(T num1, T num2)
 {
-    res->setNum(num1 * num2);
+    float res;
+    res = num1 * num2;
+    return res;
 }
+template class Numero<float>;
+template class Operacion<float>;

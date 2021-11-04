@@ -52,10 +52,10 @@ RM = "C:\Program Files\cmake-3.20.4-windows-i386\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\u\progra\Estructura_de_Datos\2\New folder\extras\Extra 1"
+CMAKE_SOURCE_DIR = "D:\u\progra\Estructura_de_Datos\2\New folder\extras\New folder"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\u\progra\Estructura_de_Datos\2\New folder\extras\Extra 1\build"
+CMAKE_BINARY_DIR = "D:\u\progra\Estructura_de_Datos\2\New folder\extras\New folder\build"
 
 # Utility rule file for Experimental.
 
@@ -81,6 +81,6 @@ CMakeFiles/Experimental.dir/clean:
 .PHONY : CMakeFiles/Experimental.dir/clean
 
 CMakeFiles/Experimental.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\u\progra\Estructura_de_Datos\2\New folder\extras\Extra 1" "D:\u\progra\Estructura_de_Datos\2\New folder\extras\Extra 1" "D:\u\progra\Estructura_de_Datos\2\New folder\extras\Extra 1\build" "D:\u\progra\Estructura_de_Datos\2\New folder\extras\Extra 1\build" "D:\u\progra\Estructura_de_Datos\2\New folder\extras\Extra 1\build\CMakeFiles\Experimental.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\u\progra\Estructura_de_Datos\2\New folder\extras\New folder" "D:\u\progra\Estructura_de_Datos\2\New folder\extras\New folder" "D:\u\progra\Estructura_de_Datos\2\New folder\extras\New folder\build" "D:\u\progra\Estructura_de_Datos\2\New folder\extras\New folder\build" "D:\u\progra\Estructura_de_Datos\2\New folder\extras\New folder\build\CMakeFiles\Experimental.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Experimental.dir/depend
 
