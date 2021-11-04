@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: D:/u/progra/Estructura_de_Datos/2/Github grupo/Team-DataStrucure-7166/I-PARCIAL/Tareas/Tarea2_templates/SumaFracciones
-BuildDirectory: D:/u/progra/Estructura_de_Datos/2/Github grupo/Team-DataStrucure-7166/I-PARCIAL/Tareas/Tarea2_templates/SumaFracciones/build
+SourceDirectory: D:/u/progra/Estructura_de_Datos/2/Tarea2_templates/SumaFracciones
+BuildDirectory: D:/u/progra/Estructura_de_Datos/2/Tarea2_templates/SumaFracciones/build
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/cmake-3.20.4-windows-i386/bin/cmake.exe" "D:/u/progra/Estructura_de_Datos/2/Github grupo/Team-DataStrucure-7166/I-PARCIAL/Tareas/Tarea2_templates/SumaFracciones"
+ConfigureCommand: "C:/Program Files/cmake-3.20.4-windows-i386/bin/cmake.exe" "D:/u/progra/Estructura_de_Datos/2/Tarea2_templates/SumaFracciones"
 MakeCommand: C:/Program\ Files/cmake-3.20.4-windows-i386/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 

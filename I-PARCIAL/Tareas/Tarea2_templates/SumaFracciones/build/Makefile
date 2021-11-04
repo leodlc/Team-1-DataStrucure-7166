@@ -56,10 +56,10 @@ RM = "C:\Program Files\cmake-3.20.4-windows-i386\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\u\progra\Estructura_de_Datos\2\Github grupo\Team-DataStrucure-7166\I-PARCIAL\Tareas\Tarea2_templates\SumaFracciones"
+CMAKE_SOURCE_DIR = D:\u\progra\Estructura_de_Datos\2\Tarea2_templates\SumaFracciones
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\u\progra\Estructura_de_Datos\2\Github grupo\Team-DataStrucure-7166\I-PARCIAL\Tareas\Tarea2_templates\SumaFracciones\build"
+CMAKE_BINARY_DIR = D:\u\progra\Estructura_de_Datos\2\Tarea2_templates\SumaFracciones\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = "D:\u\progra\Estructura_de_Datos\2\Github grupo\Team-DataStru
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	"C:\Program Files\cmake-3.20.4-windows-i386\bin\cpack.exe" --config ./CPackSourceConfig.cmake "D:/u/progra/Estructura_de_Datos/2/Github grupo/Team-DataStrucure-7166/I-PARCIAL/Tareas/Tarea2_templates/SumaFracciones/build/CPackSourceConfig.cmake"
+	"C:\Program Files\cmake-3.20.4-windows-i386\bin\cpack.exe" --config ./CPackSourceConfig.cmake D:/u/progra/Estructura_de_Datos/2/Tarea2_templates/SumaFracciones/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -84,16 +84,6 @@ package: preinstall
 package/fast: package
 .PHONY : package/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	"C:\Program Files\cmake-3.20.4-windows-i386\bin\ctest.exe" --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-.PHONY : test/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -103,6 +93,16 @@ edit_cache:
 # Special rule for the target edit_cache
 edit_cache/fast: edit_cache
 .PHONY : edit_cache/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	"C:\Program Files\cmake-3.20.4-windows-i386\bin\ctest.exe" --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -116,9 +116,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\u\progra\Estructura_de_Datos\2\Github grupo\Team-DataStrucure-7166\I-PARCIAL\Tareas\Tarea2_templates\SumaFracciones\build\CMakeFiles" "D:\u\progra\Estructura_de_Datos\2\Github grupo\Team-DataStrucure-7166\I-PARCIAL\Tareas\Tarea2_templates\SumaFracciones\build\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\u\progra\Estructura_de_Datos\2\Tarea2_templates\SumaFracciones\build\CMakeFiles D:\u\progra\Estructura_de_Datos\2\Tarea2_templates\SumaFracciones\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\u\progra\Estructura_de_Datos\2\Github grupo\Team-DataStrucure-7166\I-PARCIAL\Tareas\Tarea2_templates\SumaFracciones\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\u\progra\Estructura_de_Datos\2\Tarea2_templates\SumaFracciones\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -510,24 +510,24 @@ ContinuousMemCheck/fast:
 .PHONY : ContinuousMemCheck/fast
 
 #=============================================================================
-# Target rules for targets named SumaDeFracciones
+# Target rules for targets named Templates
 
 # Build rule for target.
-SumaDeFracciones: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SumaDeFracciones
-.PHONY : SumaDeFracciones
+Templates: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Templates
+.PHONY : Templates
 
 # fast build rule for target.
-SumaDeFracciones/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumaDeFracciones.dir\build.make CMakeFiles/SumaDeFracciones.dir/build
-.PHONY : SumaDeFracciones/fast
+Templates/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Templates.dir\build.make CMakeFiles/Templates.dir/build
+.PHONY : Templates/fast
 
 Fraccion.obj: Fraccion.cpp.obj
 .PHONY : Fraccion.obj
 
 # target to build an object file
 Fraccion.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumaDeFracciones.dir\build.make CMakeFiles/SumaDeFracciones.dir/Fraccion.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Templates.dir\build.make CMakeFiles/Templates.dir/Fraccion.cpp.obj
 .PHONY : Fraccion.cpp.obj
 
 Fraccion.i: Fraccion.cpp.i
@@ -535,7 +535,7 @@ Fraccion.i: Fraccion.cpp.i
 
 # target to preprocess a source file
 Fraccion.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumaDeFracciones.dir\build.make CMakeFiles/SumaDeFracciones.dir/Fraccion.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Templates.dir\build.make CMakeFiles/Templates.dir/Fraccion.cpp.i
 .PHONY : Fraccion.cpp.i
 
 Fraccion.s: Fraccion.cpp.s
@@ -543,7 +543,7 @@ Fraccion.s: Fraccion.cpp.s
 
 # target to generate assembly for a file
 Fraccion.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumaDeFracciones.dir\build.make CMakeFiles/SumaDeFracciones.dir/Fraccion.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Templates.dir\build.make CMakeFiles/Templates.dir/Fraccion.cpp.s
 .PHONY : Fraccion.cpp.s
 
 Operacion.obj: Operacion.cpp.obj
@@ -551,7 +551,7 @@ Operacion.obj: Operacion.cpp.obj
 
 # target to build an object file
 Operacion.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumaDeFracciones.dir\build.make CMakeFiles/SumaDeFracciones.dir/Operacion.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Templates.dir\build.make CMakeFiles/Templates.dir/Operacion.cpp.obj
 .PHONY : Operacion.cpp.obj
 
 Operacion.i: Operacion.cpp.i
@@ -559,7 +559,7 @@ Operacion.i: Operacion.cpp.i
 
 # target to preprocess a source file
 Operacion.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumaDeFracciones.dir\build.make CMakeFiles/SumaDeFracciones.dir/Operacion.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Templates.dir\build.make CMakeFiles/Templates.dir/Operacion.cpp.i
 .PHONY : Operacion.cpp.i
 
 Operacion.s: Operacion.cpp.s
@@ -567,7 +567,7 @@ Operacion.s: Operacion.cpp.s
 
 # target to generate assembly for a file
 Operacion.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumaDeFracciones.dir\build.make CMakeFiles/SumaDeFracciones.dir/Operacion.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Templates.dir\build.make CMakeFiles/Templates.dir/Operacion.cpp.s
 .PHONY : Operacion.cpp.s
 
 main.obj: main.cpp.obj
@@ -575,7 +575,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumaDeFracciones.dir\build.make CMakeFiles/SumaDeFracciones.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Templates.dir\build.make CMakeFiles/Templates.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -583,7 +583,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumaDeFracciones.dir\build.make CMakeFiles/SumaDeFracciones.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Templates.dir\build.make CMakeFiles/Templates.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -591,7 +591,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SumaDeFracciones.dir\build.make CMakeFiles/SumaDeFracciones.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Templates.dir\build.make CMakeFiles/Templates.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -633,7 +633,7 @@ help:
 	@echo ... NightlySubmit
 	@echo ... NightlyTest
 	@echo ... NightlyUpdate
-	@echo ... SumaDeFracciones
+	@echo ... Templates
 	@echo ... Fraccion.obj
 	@echo ... Fraccion.i
 	@echo ... Fraccion.s

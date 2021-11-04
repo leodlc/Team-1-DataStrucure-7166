@@ -1,7 +1,6 @@
-CMakeFiles/SumaDeFracciones.dir/Operacion.cpp.obj: \
- D:\u\progra\Estructura_de_Datos\2\Github\ grupo\Team-DataStrucure-7166\I-PARCIAL\Tareas\Tarea2_templates\SumaFracciones\Operacion.cpp \
- D:\u\progra\Estructura_de_Datos\2\Github\ grupo\Team-DataStrucure-7166\I-PARCIAL\Tareas\Tarea2_templates\SumaFracciones\Operacion.h \
- D:\u\progra\Estructura_de_Datos\2\Github\ grupo\Team-DataStrucure-7166\I-PARCIAL\Tareas\Tarea2_templates\SumaFracciones\Fraccion.h \
+CMakeFiles/Templates.dir/Fraccion.cpp.obj: \
+ D:\u\progra\Estructura_de_Datos\2\Tarea2_templates\SumaFracciones\Fraccion.cpp \
+ D:\u\progra\Estructura_de_Datos\2\Tarea2_templates\SumaFracciones\Fraccion.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \

@@ -54,7 +54,7 @@
 					[
 						0
 					],
-					"name" : "SumaDeFracciones",
+					"name" : "Templates",
 					"targetIndexes" : 
 					[
 						0,
@@ -289,9 +289,9 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "SumaDeFracciones::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SumaDeFracciones-Debug-681d040b2b179b167196.json",
-					"name" : "SumaDeFracciones",
+					"id" : "Templates::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Templates-Debug-d0b9fa997abbde3946f9.json",
+					"name" : "Templates",
 					"projectIndex" : 0
 				}
 			]
@@ -300,8 +300,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/u/progra/Estructura_de_Datos/2/Github grupo/Team-DataStrucure-7166/I-PARCIAL/Tareas/Tarea2_templates/SumaFracciones/build",
-		"source" : "D:/u/progra/Estructura_de_Datos/2/Github grupo/Team-DataStrucure-7166/I-PARCIAL/Tareas/Tarea2_templates/SumaFracciones"
+		"build" : "D:/u/progra/Estructura_de_Datos/2/Tarea2_templates/SumaFracciones/build",
+		"source" : "D:/u/progra/Estructura_de_Datos/2/Tarea2_templates/SumaFracciones"
 	},
 	"version" : 
 	{

@@ -1,8 +1,8 @@
-# Install script for directory: D:/u/progra/Estructura_de_Datos/2/Github grupo/Team-DataStrucure-7166/I-PARCIAL/Tareas/Tarea2_templates/SumaFracciones
+# Install script for directory: D:/u/progra/Estructura_de_Datos/2/Tarea2_templates/SumaFracciones
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/SumaDeFracciones")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Templates")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/u/progra/Estructura_de_Datos/2/Github grupo/Team-DataStrucure-7166/I-PARCIAL/Tareas/Tarea2_templates/SumaFracciones/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/u/progra/Estructura_de_Datos/2/Tarea2_templates/SumaFracciones/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

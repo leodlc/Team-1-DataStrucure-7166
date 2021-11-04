@@ -1,6 +1,5 @@
-CMakeFiles/SumaDeFracciones.dir/Fraccion.cpp.obj: \
- D:\u\progra\Estructura_de_Datos\2\Github\ grupo\Team-DataStrucure-7166\I-PARCIAL\Tareas\Tarea2_templates\SumaFracciones\Fraccion.cpp \
- D:\u\progra\Estructura_de_Datos\2\Github\ grupo\Team-DataStrucure-7166\I-PARCIAL\Tareas\Tarea2_templates\SumaFracciones\Fraccion.h \
+CMakeFiles/Templates.dir/main.cpp.obj: \
+ D:\u\progra\Estructura_de_Datos\2\Tarea2_templates\SumaFracciones\main.cpp \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -126,4 +125,6 @@ CMakeFiles/SumaDeFracciones.dir/Fraccion.cpp.obj: \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
  C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
- C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc
+ C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
+ D:\u\progra\Estructura_de_Datos\2\Tarea2_templates\SumaFracciones\Fraccion.h \
+ D:\u\progra\Estructura_de_Datos\2\Tarea2_templates\SumaFracciones\Operacion.h

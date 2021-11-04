@@ -83,7 +83,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/u/progra/Estructura_de_Datos/2/Github grupo/Team-DataStrucure-7166/I-PARCIAL/Tareas/Tarea2_templates/SumaFracciones/build"
+			"value" : "d:/u/progra/Estructura_de_Datos/2/Tarea2_templates/SumaFracciones/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -679,7 +679,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/u/progra/Estructura_de_Datos/2/Github grupo/Team-DataStrucure-7166/I-PARCIAL/Tareas/Tarea2_templates/SumaFracciones"
+			"value" : "D:/u/progra/Estructura_de_Datos/2/Tarea2_templates/SumaFracciones"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -691,7 +691,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/SumaDeFracciones"
+			"value" : "C:/Program Files (x86)/Templates"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -911,7 +911,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "SumaDeFracciones"
+			"value" : "Templates"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION",
@@ -1718,7 +1718,7 @@
 			"value" : ""
 		},
 		{
-			"name" : "SumaDeFracciones_BINARY_DIR",
+			"name" : "Templates_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1727,10 +1727,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/u/progra/Estructura_de_Datos/2/Github grupo/Team-DataStrucure-7166/I-PARCIAL/Tareas/Tarea2_templates/SumaFracciones/build"
+			"value" : "D:/u/progra/Estructura_de_Datos/2/Tarea2_templates/SumaFracciones/build"
 		},
 		{
-			"name" : "SumaDeFracciones_SOURCE_DIR",
+			"name" : "Templates_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1739,7 +1739,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/u/progra/Estructura_de_Datos/2/Github grupo/Team-DataStrucure-7166/I-PARCIAL/Tareas/Tarea2_templates/SumaFracciones"
+			"value" : "D:/u/progra/Estructura_de_Datos/2/Tarea2_templates/SumaFracciones"
 		}
 	],
 	"kind" : "cache",
