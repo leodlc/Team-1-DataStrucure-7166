@@ -1,0 +1,17 @@
+[
+{
+  "directory": "D:/u/progra/Estructura_de_Datos/2/New folder/extras/Extra 2/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE   -g -o CMakeFiles\\Extra2.dir\\main.cpp.obj -c \"D:\\u\\progra\\Estructura_de_Datos\\2\\New folder\\extras\\Extra 2\\main.cpp\"",
+  "file": "D:/u/progra/Estructura_de_Datos/2/New folder/extras/Extra 2/main.cpp"
+},
+{
+  "directory": "D:/u/progra/Estructura_de_Datos/2/New folder/extras/Extra 2/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE   -g -o CMakeFiles\\Extra2.dir\\Numero.cpp.obj -c \"D:\\u\\progra\\Estructura_de_Datos\\2\\New folder\\extras\\Extra 2\\Numero.cpp\"",
+  "file": "D:/u/progra/Estructura_de_Datos/2/New folder/extras/Extra 2/Numero.cpp"
+},
+{
+  "directory": "D:/u/progra/Estructura_de_Datos/2/New folder/extras/Extra 2/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE   -g -o CMakeFiles\\Extra2.dir\\Operacion.cpp.obj -c \"D:\\u\\progra\\Estructura_de_Datos\\2\\New folder\\extras\\Extra 2\\Operacion.cpp\"",
+  "file": "D:/u/progra/Estructura_de_Datos/2/New folder/extras/Extra 2/Operacion.cpp"
+}
+]
