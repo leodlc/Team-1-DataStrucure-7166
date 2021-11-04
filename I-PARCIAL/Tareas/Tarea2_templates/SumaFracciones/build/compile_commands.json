@@ -1,0 +1,17 @@
+[
+{
+  "directory": "D:/u/progra/Estructura_de_Datos/2/Github grupo/Team-DataStrucure-7166/I-PARCIAL/Tareas/Tarea2_templates/SumaFracciones/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE   -g -o CMakeFiles\\SumaDeFracciones.dir\\main.cpp.obj -c \"D:\\u\\progra\\Estructura_de_Datos\\2\\Github grupo\\Team-DataStrucure-7166\\I-PARCIAL\\Tareas\\Tarea2_templates\\SumaFracciones\\main.cpp\"",
+  "file": "D:/u/progra/Estructura_de_Datos/2/Github grupo/Team-DataStrucure-7166/I-PARCIAL/Tareas/Tarea2_templates/SumaFracciones/main.cpp"
+},
+{
+  "directory": "D:/u/progra/Estructura_de_Datos/2/Github grupo/Team-DataStrucure-7166/I-PARCIAL/Tareas/Tarea2_templates/SumaFracciones/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE   -g -o CMakeFiles\\SumaDeFracciones.dir\\Fraccion.cpp.obj -c \"D:\\u\\progra\\Estructura_de_Datos\\2\\Github grupo\\Team-DataStrucure-7166\\I-PARCIAL\\Tareas\\Tarea2_templates\\SumaFracciones\\Fraccion.cpp\"",
+  "file": "D:/u/progra/Estructura_de_Datos/2/Github grupo/Team-DataStrucure-7166/I-PARCIAL/Tareas/Tarea2_templates/SumaFracciones/Fraccion.cpp"
+},
+{
+  "directory": "D:/u/progra/Estructura_de_Datos/2/Github grupo/Team-DataStrucure-7166/I-PARCIAL/Tareas/Tarea2_templates/SumaFracciones/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\X86_64~2.EXE   -g -o CMakeFiles\\SumaDeFracciones.dir\\Operacion.cpp.obj -c \"D:\\u\\progra\\Estructura_de_Datos\\2\\Github grupo\\Team-DataStrucure-7166\\I-PARCIAL\\Tareas\\Tarea2_templates\\SumaFracciones\\Operacion.cpp\"",
+  "file": "D:/u/progra/Estructura_de_Datos/2/Github grupo/Team-DataStrucure-7166/I-PARCIAL/Tareas/Tarea2_templates/SumaFracciones/Operacion.cpp"
+}
+]
