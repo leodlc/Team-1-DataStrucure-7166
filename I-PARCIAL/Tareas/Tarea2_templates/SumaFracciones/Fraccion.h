@@ -7,7 +7,7 @@
 *Alvaro Zumba
 *TEMA: CREACION DE UN PROGRAMA DE SUMA DE FRACCIONES<>
 *FECHA DE CREACION : 27 DE OCTUBRE DEL 2021
-*FECHA DE MODIFICACION: 28 DE OCTUBRE 2021
+*FECHA DE MODIFICACION: 4 DE NOVIEMBRE DEL 2021
 * */
 /***********************************************************************
  * Module:  Fraccion.h
