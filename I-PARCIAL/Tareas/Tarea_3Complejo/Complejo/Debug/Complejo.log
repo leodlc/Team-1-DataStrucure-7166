@@ -1,0 +1,11 @@
+﻿  Complejo.cpp
+  Main.cpp
+C:\Users\Asus\Desktop\Repositorio Grupo\Deber-grupo-1\I-PARCIAL\Tareas\Tarea_3Complejo\Complejo\Main.cpp(20,27): warning C4244: 'argumento': conversión de 'double' a 'T'; posible pérdida de datos
+          with
+          [
+              T=int
+          ]
+C:\Users\Asus\Desktop\Repositorio Grupo\Deber-grupo-1\I-PARCIAL\Tareas\Tarea_3Complejo\Complejo\Main.cpp(22,9): warning C4101: 'y': variable local sin referencia
+C:\Users\Asus\Desktop\Repositorio Grupo\Deber-grupo-1\I-PARCIAL\Tareas\Tarea_3Complejo\Complejo\Main.cpp(22,6): warning C4101: 'x': variable local sin referencia
+  Generando código...
+  Complejo.vcxproj -> C:\Users\Asus\Desktop\Repositorio Grupo\Deber-grupo-1\I-PARCIAL\Tareas\Tarea_3Complejo\Complejo\Debug\Complejo.exe

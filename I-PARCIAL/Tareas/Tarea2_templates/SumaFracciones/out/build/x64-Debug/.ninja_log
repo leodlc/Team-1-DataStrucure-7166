@@ -1,6 +1,0 @@
-# ninja log v5
-1	593	6571622681142422	CMakeFiles/SumaDeFracciones.dir/Operacion.cpp.obj	ab918b970f5b9b05
-25	608	6571622681282416	CMakeFiles/SumaDeFracciones.dir/main.cpp.obj	a91c3574f62a16d7
-13	829	6571623349044577	CMakeFiles/SumaDeFracciones.dir/main.cpp.obj	a91c3574f62a16d7
-1	830	6571623349064588	CMakeFiles/SumaDeFracciones.dir/Fraccion.cpp.obj	523b3e74287a54cd
-830	1379	6571623354434391	SumaDeFracciones.exe	f192289a51fea37b
