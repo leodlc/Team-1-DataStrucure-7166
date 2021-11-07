@@ -1,0 +1,5 @@
+﻿C:\Visual Studio 2019\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: El directorio intermedio (Debug\) contiene archivos compartidos de otro proyecto (Vector.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
+  main.cpp
+  Manzana.cpp
+  Generando código...
+  Vector.vcxproj -> C:\Users\Asus\Desktop\Repositorio Grupo\Deber-grupo-1\I-PARCIAL\Tareas\Tarea_5Ejercicios_OperadoresSobrecargados\Johnny\Vector\Debug\Ejercicio1_ManzanaSobrecaraga.exe
