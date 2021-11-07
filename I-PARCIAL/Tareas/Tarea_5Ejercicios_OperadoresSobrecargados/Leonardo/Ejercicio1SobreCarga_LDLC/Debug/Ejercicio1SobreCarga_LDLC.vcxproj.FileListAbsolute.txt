@@ -1,0 +1,2 @@
+C:\Users\Asrock\Documents\SEMESTRE OCT21-MAR22\Estructura de datos\Proyectos ED C++ visual\Ejercicio1SobreCarga_LDLC\Debug\Ejercicio1SobreCarga_LDLC.exe
+C:\Users\Asrock\Documents\SEMESTRE OCT21-MAR22\Estructura de datos\Team-1-DataStrucure-7166\I-PARCIAL\Tareas\Tarea_5Ejercicios_OperadoresSobrecargados\Leonardo\Ejercicio1SobreCarga_LDLC\Debug\Ejercicio1SobreCarga_LDLC.exe
