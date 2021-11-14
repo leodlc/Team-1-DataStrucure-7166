@@ -1,3 +1,14 @@
+/** UNIVERSIDAD DE LAS FUERZAS ARMADAS "ESPE"
+*			INGENIERIA SOFTWARE
+*
+*AUTORES: Cristian Maranje
+*Leonardo de la Cadena
+*Johnny Loachamin
+*Alvaro Zumba
+*TEMA: Manejo de memoria dinamica con matrices
+*FECHA DE CREACION : 13 DE NOVIEMBRE DEL 2021
+*FECHA DE MODIFICACION: 14 DE NOVIEMBRE DE 2021
+* */
 #pragma once
 #include <stdio.h>
 #include <iostream>
