@@ -9,7 +9,6 @@
  * Modified: jueves, 18 de noviembre de 2021 20:01:28
  * Purpose: Implementation of the class Asignatura
  ***********************************************************************/
-
 #include "Alumno.h"
 #include "Profesor.h"
 #include "Asignatura.h"
@@ -66,20 +65,14 @@ void Asignatura::setNRC(std::string newNRC)
    NRC = newNRC;
 }
 
-
-
-
-
-
-
 float Asignatura::calcularNotaFinal(void)
 {
-   
+	return 0;
 }
 
 
 
 bool Asignatura::aprobacion(void)
 {
-   
+	return true;
 }
