@@ -40,7 +40,7 @@ int main()
 
     lst.eliminar(cont);
     lst.mostrar();
-    cout << "La sumas do, le eslementos es: " << lst.proceso();
+    cout << "La sumas de los elementos es: " << lst.proceso();
     std::cout<<"\n";
     return 0;
 }
