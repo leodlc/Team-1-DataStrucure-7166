@@ -28,7 +28,7 @@ int main()
     } while (cont != 0);
 
     lst.mostrar();
-    cout << "La sumas do, le eslementos es: " << lst.proceso();
+    cout << "La suma de los elementos es: " << lst.proceso();
 
     cout << "\nEscriba el indice de elemento que desea borrar: ";
     cin >> cont;
