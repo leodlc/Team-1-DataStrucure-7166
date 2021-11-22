@@ -20,6 +20,11 @@ int main()
     int num=0,cont=0;
     cout << "Cuantos elementos desea insertar: ";
     cin >> cont;
+    while (cont <= 1) {
+        cout << "La lista debe tener mas de un elemento.\n";
+        cout << "Cuantos elementos desea insertar: ";
+        cin >> cont;
+    }
     do {
         cout << "Ingrese el numero: ";
         cin >> num;
