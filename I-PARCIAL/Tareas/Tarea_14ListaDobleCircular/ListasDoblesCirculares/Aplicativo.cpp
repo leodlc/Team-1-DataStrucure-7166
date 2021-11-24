@@ -1,9 +1,14 @@
-/*
-UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE							   
-Titulo: ListaDobleCricular											       
-Fecha: 22/11/2021													   
-Fecha de modificacion: 23/11/2021								   
-*/
+/** UNIVERSIDAD DE LAS FUERZAS ARMADAS "ESPE"
+*			INGENIERIA SOFTWARE
+*
+*AUTORES: Cristian Maranje
+*Leonardo de la Cadena
+*Johnny Loachamin
+*Alvaro Zumba
+*TEMA: Listas Simples Circulares
+*FECHA DE CREACION : 23 DE NOVIEMBRE DEL 2021
+*FECHA DE MODIFICACION: 23 DE NOVIEMBRE DE 2021
+* */
 #include <iostream>
 #include <cstring>
 #include "Lista.h"
