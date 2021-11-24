@@ -1,9 +1,9 @@
 /*
 UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE							   
 Titulo: ListaDobleCricular
-Autor: Stalin Rivera											       
-Fecha: 08/06/2021													   
-Fecha de modificacion: 10/06/2021								   
+											       
+Fecha: 23/11/2021													   
+Fecha de modificacion: 23/11/2021								   
 */
 #include <stdlib.h>
 #include <iostream>
