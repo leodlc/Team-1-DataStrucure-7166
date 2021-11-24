@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ListaSimple">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAgIEADACgAEAACAAkACAAAAAIAAgAAA=</HashCode>
+      <FileName>C:\Users\Asus\Desktop\GrupoEstructuras\Team-1-DataStrucure-7166\I-PARCIAL\Tareas\tarea_11ListaSimple\ListaSimple.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="actual" />
+      <Field Name="primero" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Nodo">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAEAAAAAABABAAAAABAQAAAAAA=</HashCode>
+      <FileName>C:\Users\Asus\Desktop\GrupoEstructuras\Team-1-DataStrucure-7166\I-PARCIAL\Tareas\tarea_11ListaSimple\Nodo.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="siguiente" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
