@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Lista">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAUAAAAIGBAAAAAAAAAIAAAAAAAQAQAAAAAA=</HashCode>
+      <FileName>C:\Users\Asus\Desktop\GrupoEstructuras\Team-1-DataStrucure-7166\I-PARCIAL\Tareas\Tarea_12ListaDoble\Lista.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="cabeza" />
+      <Field Name="cola" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Nodo">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAEAAAAAgAAAAAAAAAEACAAACAAAAAAAABAQAQAAEA=</HashCode>
+      <FileName>C:\Users\Asus\Desktop\GrupoEstructuras\Team-1-DataStrucure-7166\I-PARCIAL\Tareas\Tarea_12ListaDoble\Nodo.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="anterior" />
+      <Field Name="siguiente" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
