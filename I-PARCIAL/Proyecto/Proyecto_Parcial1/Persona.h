@@ -6,10 +6,11 @@
 *Leonardo de la Cadena
 *Johnny Loachamin
 *Alvaro Zumba
- * Modified: jueves, 18 de noviembre de 2021 19:24:23
- * Purpose: Declaration of the class Persona
+  * Modified: Domingo, 21 de noviembre de 2021
+ * Purpose: Division Clases Grupo
  ***********************************************************************/
 
+//Alvaro Zumba
 #pragma once
 #include <iostream>
 #include <string>

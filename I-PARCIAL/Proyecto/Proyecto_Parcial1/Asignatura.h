@@ -6,10 +6,10 @@
 *Leonardo de la Cadena
 *Johnny Loachamin
 *Alvaro Zumba
- * Modified: jueves, 18 de noviembre de 2021 20:01:28
- * Purpose: Declaration of the class Asignatura
+  * Modified: Domingo, 21 de noviembre de 2021
+ * Purpose: Division Clases Grupo
  ***********************************************************************/
-
+//Leonardo de la Cadena
 #pragma once
 #include <iostream>
 #include <string>

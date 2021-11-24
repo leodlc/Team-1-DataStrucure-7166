@@ -6,8 +6,8 @@
 *Leonardo de la Cadena
 *Johnny Loachamin
 *Alvaro Zumba
- * Modified: jueves, 18 de noviembre de 2021 20:01:28
- * Purpose: main del proyecto
+  * Modified: Domingo, 21 de noviembre de 2021
+ * Purpose: Division Clases Grupo
  ***********************************************************************/
 #include <iostream>
 #include <string>

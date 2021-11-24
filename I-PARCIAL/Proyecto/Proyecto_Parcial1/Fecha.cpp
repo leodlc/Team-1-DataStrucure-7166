@@ -6,8 +6,8 @@
 *Leonardo de la Cadena
 *Johnny Loachamin
 *Alvaro Zumba
- * Modified: jueves, 18 de noviembre de 2021 19:23:37
- * Purpose: Implementation of the class Fecha
+  * Modified: Domingo, 21 de noviembre de 2021
+ * Purpose: Division Clases Grupo
  ***********************************************************************/
 
 #include "Persona.h"

@@ -6,8 +6,8 @@
 *Leonardo de la Cadena
 *Johnny Loachamin
 *Alvaro Zumba
- * Modificado: jueves, 18 de noviembre de 2021 20:12:09
- * Purpose: Implementation of the class Profesor
+  * Modified: Domingo, 21 de noviembre de 2021
+ * Purpose: Division Clases Grupo
  ***********************************************************************/
 
 #include "Profesor.h"

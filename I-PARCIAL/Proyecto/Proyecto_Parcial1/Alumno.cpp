@@ -6,8 +6,8 @@
 *Leonardo de la Cadena
 *Johnny Loachamin
 *Alvaro Zumba
- * Modified: jueves, 18 de noviembre de 2021 20:09:46
- * Purpose: Implementation of the class Alumno
+  * Modified: Domingo, 21 de noviembre de 2021
+ * Purpose: Division Clases Grupo
  ***********************************************************************/
 
 #include "Alumno.h"

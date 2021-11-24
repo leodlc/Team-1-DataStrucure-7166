@@ -6,9 +6,10 @@
 *Leonardo de la Cadena
 *Johnny Loachamin
 *Alvaro Zumba
- * Modified: jueves, 18 de noviembre de 2021 20:12:09
- * Purpose: Declaration of the class Profesor
+  * Modified: Domingo, 21 de noviembre de 2021
+ * Purpose: Division Clases Grupo
  ***********************************************************************/
+//Cristian Maranje
 
 #pragma once
 #include <iostream>
