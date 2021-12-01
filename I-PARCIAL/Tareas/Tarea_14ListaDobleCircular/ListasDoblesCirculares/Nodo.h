@@ -1,13 +1,17 @@
 #ifndef NODO_H
 #define NODO_H
 
-/*
-UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE							   
-Titulo: ListaDobleCricular
-Autor: Stalin Rivera											       
-Fecha: 08/06/2021													   
-Fecha de modificacion: 10/06/2021								   
-*/
+/** UNIVERSIDAD DE LAS FUERZAS ARMADAS "ESPE"
+*			INGENIERIA SOFTWARE
+*
+*AUTORES: Cristian Maranje
+*Leonardo de la Cadena
+*Johnny Loachamin
+*Alvaro Zumba
+*TEMA: Lista Doble Circular
+*FECHA DE CREACION : 23 DE NOVIEMBRE DEL 2021
+*FECHA DE MODIFICACION: 23 DE NOVIEMBRE DE 2021
+* */
 #include <cstring>
 
 using namespace std;

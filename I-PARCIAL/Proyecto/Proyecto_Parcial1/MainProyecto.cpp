@@ -16,10 +16,11 @@
 #include "Fecha.h"
 #include "Profesor.h"
 #include "Persona.h"
+#include "Login.h"
+#include "Administrador.h"
 using namespace std;
 
 int main() {
-
-	cout << "Hola" << endl;
+	login();
 	return 0;
 }

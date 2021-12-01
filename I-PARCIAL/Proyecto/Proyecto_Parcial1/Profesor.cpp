@@ -73,3 +73,39 @@ void Profesor::ingresarNotaP3(void)
 {
    
 }
+void menuProfeosr() {
+
+	cout << "\n\t\tCUENTA ADMIN\n\n";
+	cout << " 1. INGRESAR NOTAS ALUMNO              " << endl;
+	cout << " 2. SALIR                " << endl;
+
+
+
+	cout << "\n INGRESE OPCION: ";
+
+}
+//void Profesor::pantallaProfe(void) {
+//	int opc;
+//	do {
+//		system("cls");
+//		menuAdmin();
+//
+//		cin >> opc;
+//		switch (opc) {
+//		case 1:
+//			cout << "Ingresar el dato a insertar: ";
+//
+//			break;
+//		case 2:
+//			cout << "Ingresar el dato a insertar: ";
+//
+//			break;
+//		case 3:
+//
+//			break;
+//		}
+//		system("pause");
+//	} while (opc != 3);
+//
+//
+//}

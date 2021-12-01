@@ -27,8 +27,7 @@ public:
    void setID(string newID);
    string getCedula(void);
    void setCedula(std::string newCedula);
-   Fecha getFechaNacimiento(void);
-   void setFechaNacimiento(Fecha newFechaNacimiento);
+   void generarCorreo(int);
    string getCorreo(void);
    void setCorreo(string newCorreo);
    Persona();

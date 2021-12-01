@@ -139,17 +139,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Administrador.cpp" />
     <ClCompile Include="Alumno.cpp" />
     <ClCompile Include="Asignatura.cpp" />
     <ClCompile Include="Fecha.cpp" />
     <ClCompile Include="Persona.cpp" />
     <ClCompile Include="Profesor.cpp" />
     <ClCompile Include="MainProyecto.cpp" />
+    <ClCompile Include="Login.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Administrador.h" />
     <ClInclude Include="Alumno.h" />
     <ClInclude Include="Asignatura.h" />
     <ClInclude Include="Fecha.h" />
+    <ClInclude Include="Login.h" />
     <ClInclude Include="Persona.h" />
     <ClInclude Include="Profesor.h" />
   </ItemGroup>

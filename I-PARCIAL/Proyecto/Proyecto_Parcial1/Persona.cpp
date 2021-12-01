@@ -72,16 +72,9 @@ void Persona::setCedula(std::string newCedula)
 }
 
 
-Fecha Persona::getFechaNacimiento(void)
-{
-   return fechaNacimiento;
-}
 
 
-void Persona::setFechaNacimiento(Fecha newFechaNacimiento)
-{
-   fechaNacimiento = newFechaNacimiento;
-}
+
 
 
 std::string Persona::getCorreo(void)
@@ -96,3 +89,22 @@ void Persona::setCorreo(std::string newCorreo)
 }
 
 
+
+void Persona::generarCorreo(int cont)
+{
+    string localNombre = nombre;
+    string localApellido = apellido;
+
+    for (int i = 0; i < localNombre.length(); i++)
+        localNombre[i] = tolower(localNombre[i]);
+    for (int i = 0; i < localApellido.length(); i++)
+        localApellido[i] = tolower(localApellido[i]);
+    if (cont == 0)
+    {
+        correo = localNombre[0] + localApellido + "@espe.edu.ec";
+    }
+    else
+    {
+        correo = localApellido[0] + localApellido + to_string(cont) + "@espe.edu.ec";
+    }
+}
