@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /** UNIVERSIDAD DE LAS FUERZAS ARMADAS "ESPE"
 *			INGENIERIA SOFTWARE
 *
@@ -9,6 +10,15 @@
 *FECHA DE CREACION : 23 DE NOVIEMBRE DEL 2021
 *FECHA DE MODIFICACION: 23 DE NOVIEMBRE DE 2021
 * */
+=======
+/*
+UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE							   
+Titulo: ListaDobleCricular
+											       
+Fecha: 23/11/2021													   
+Fecha de modificacion: 23/11/2021								   
+*/
+>>>>>>> d027e87c3bf36f3c6cc87aa856f737410c233618
 #include <stdlib.h>
 #include <iostream>
 #include "Nodo.h"
