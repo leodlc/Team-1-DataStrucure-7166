@@ -48,7 +48,7 @@ void Persona::setApellido(std::string newApellido)
 }
 
 
-std::string Persona::getID(void)
+string Persona::getID(void)
 {
    return ID;
 }
@@ -60,20 +60,16 @@ void Persona::setID(std::string newID)
 }
 
 
-std::string Persona::getCedula(void)
+long int Persona::getCedula(void)
 {
    return cedula;
 }
 
 
-void Persona::setCedula(std::string newCedula)
+void Persona::setCedula(long int newCedula)
 {
    cedula = newCedula;
 }
-
-
-
-
 
 
 

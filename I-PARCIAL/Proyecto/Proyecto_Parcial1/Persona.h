@@ -14,7 +14,7 @@
 #pragma once
 #include <iostream>
 #include <string>
-#include "Fecha.h"
+
 using namespace std;
 class Persona
 {
@@ -25,8 +25,8 @@ public:
    void setApellido(string newApellido);
    string getID(void);
    void setID(string newID);
-   string getCedula(void);
-   void setCedula(std::string newCedula);
+   long int getCedula(void);
+   void setCedula(long int  newCedula);
    void generarCorreo(int);
    string getCorreo(void);
    void setCorreo(string newCorreo);
@@ -38,10 +38,8 @@ private:
    string nombre;
    string apellido;
    string ID;
-   string cedula;
-   Fecha fechaNacimiento;
+   long int  cedula; 
    string correo;
-
-
+    
 };
 

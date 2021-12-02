@@ -8,6 +8,9 @@
 #include <iostream>
 #include <string>
 #include "Profesor.h"
+#include <stdlib.h>
+#include "ListaCircularDoble.h"
+
 using namespace std;
 
 class Administrador
@@ -20,8 +23,9 @@ public:
 	Administrador();
 	~Administrador();
 	void registrarAlumno(void);
-	void registroProfesor(void);
+	Profesor registroProfesor(void);
 	void pantallaAdmin(void);
+	long int validarCedula(long int a);
 	//void menuAdmin();
 
 

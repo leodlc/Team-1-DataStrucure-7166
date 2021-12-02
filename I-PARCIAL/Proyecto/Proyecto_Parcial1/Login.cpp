@@ -19,6 +19,7 @@ void login() {
     vector<string> claves;
     Administrador admin;
 
+
     // Se añaden usuarios al vector
     usuarios.push_back("leo");
     /*usuarios.push_back("jorge");
@@ -44,7 +45,7 @@ void login() {
         cout << "\t\t\tLOGIN DE USUARIO" << endl;
         cout << "\t\t\t----------------" << endl;
         cout << "\n\tUsuario: ";
-        getline(cin, usuario);
+        getline(cin >> ws, usuario);
 
         char caracter;
 

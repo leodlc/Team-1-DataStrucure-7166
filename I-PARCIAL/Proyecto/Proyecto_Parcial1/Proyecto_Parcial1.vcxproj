@@ -141,8 +141,10 @@
   <ItemGroup>
     <ClCompile Include="Administrador.cpp" />
     <ClCompile Include="Alumno.cpp" />
+    <ClCompile Include="Archivo.cpp" />
     <ClCompile Include="Asignatura.cpp" />
-    <ClCompile Include="Fecha.cpp" />
+    <ClCompile Include="ListaCircularDoble.cpp" />
+    <ClCompile Include="Nodo.cpp" />
     <ClCompile Include="Persona.cpp" />
     <ClCompile Include="Profesor.cpp" />
     <ClCompile Include="MainProyecto.cpp" />
@@ -151,11 +153,14 @@
   <ItemGroup>
     <ClInclude Include="Administrador.h" />
     <ClInclude Include="Alumno.h" />
+    <ClInclude Include="Archivo.h" />
     <ClInclude Include="Asignatura.h" />
-    <ClInclude Include="Fecha.h" />
+    <ClInclude Include="ListaCircularDoble.h" />
     <ClInclude Include="Login.h" />
+    <ClInclude Include="Nodo.h" />
     <ClInclude Include="Persona.h" />
     <ClInclude Include="Profesor.h" />
+    <ClInclude Include="Validaciones.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

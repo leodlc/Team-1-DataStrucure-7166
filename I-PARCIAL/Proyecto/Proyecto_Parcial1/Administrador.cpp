@@ -1,7 +1,13 @@
 #include "Administrador.h"
+#include "Login.h"
 #include <iostream>
 #include <string>
+#include <stdlib.h>
+#include "Profesor.h"
+#include "Archivo.h"
+
 using namespace std;
+#define dim 10
 /***********************************************************************
  * Module:  Administrador.cpp
  * Author:  AsrockLeo
@@ -88,7 +94,38 @@ Administrador::~Administrador()
 
 void Administrador::registrarAlumno(void)
 {
-	// TODO : implement
+	
+	Alumno nuevoAlumno;
+
+	string dato;
+	long int CI = 0;
+	std::cout << "Ingrese el nombre: " << endl;
+	fflush(stdin);
+	getline(cin >> ws, dato);
+	nuevoAlumno.setNombre(dato);
+
+	std::cout << "Ingrese el Apellido: " << endl;
+	fflush(stdin);
+	getline(cin >> ws, dato);
+	nuevoAlumno.setApellido(dato);
+
+	fflush(stdin);
+	std::cout << "Ingrese el ID: " << endl;
+	fflush(stdin);
+	getline(cin >> ws, dato);
+	nuevoAlumno.setID(dato);
+
+	std::cout << "Ingrese la cedula: " << endl;
+	fflush(stdin);
+	cin >> CI;
+	CI = validarCedula(CI);
+	nuevoAlumno.setCedula(CI);
+
+	nuevoAlumno.generarCorreo(0);
+	std::cout << nuevoAlumno.getCorreo() << endl;
+
+
+
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -97,42 +134,59 @@ void Administrador::registrarAlumno(void)
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Administrador::registroProfesor(void)
+Profesor Administrador::registroProfesor(void)
 {
 	Profesor nuevoProfesor;
 	string dato;
-	std::cout << "Ingrese el nombre: ";
-	getline(cin, dato);
-	
-
+	long int CI =0;
+	std::cout << "Ingrese el nombre: "<<endl;
+	fflush(stdin);
+	getline(cin >> ws, dato);
 	nuevoProfesor.setNombre(dato);
-	std::cout << "Ingrese el Apellido: ";
-	getline(cin, dato);
+	
+	std::cout << "Ingrese el Apellido: "<<endl;
+	fflush(stdin);
+	getline(cin >> ws, dato);
 	nuevoProfesor.setApellido(dato);
-	std::cout << "Ingrese el ID: ";
-	getline(cin, dato);
+	
+	fflush(stdin);
+	std::cout << "Ingrese el ID: "<<endl;
+	fflush(stdin);
+	getline(cin >> ws, dato);
 	nuevoProfesor.setID(dato);
-	std::cout << "Ingrese la cedula: ";
-	getline(cin, dato);
-	nuevoProfesor.setCedula(dato);
-	nuevoProfesor.generarCorreo(0);
-	std::cout << nuevoProfesor.getCorreo();
 
+	std::cout << "Ingrese la cedula: "<<endl;
+	fflush(stdin);
+	cin >> CI;
+	CI = validarCedula(CI);
+	nuevoProfesor.setCedula(CI);
+
+	nuevoProfesor.generarCorreo(0);
+	std::cout << nuevoProfesor.getCorreo()<<endl;
+
+	return nuevoProfesor;
 }
+
+
 
 void menuAdmin() {
 	
 	cout << "\n\t\tCUENTA ADMIN\n\n";
 	cout << " 1. REGISTRAR ALUMNO              " << endl;
 	cout << " 2. REGISTRAR PROFESOR                " << endl;
-	cout << " 3. SALIR                   " << endl;
+	cout << " 3. REGRESAR                "		<< endl;
+	cout << " 4. SALIR                   " << endl;
 	
 
 	cout << "\n INGRESE OPCION: ";
 	
 }
 void Administrador::pantallaAdmin(void) {
-	int opc;
+	int opc,cont = 0;
+	ListaCircularDoble listaProfesor;
+	ListaCircularDoble listaAlumno;
+	Archivo archivo;
+	archivo.leerArchivo(listaProfesor, "Profesores.txt");
 	do {
 		system("cls");
 		menuAdmin();
@@ -141,14 +195,28 @@ void Administrador::pantallaAdmin(void) {
 		switch (opc) {
 		case 1:
 			
-			
+			registrarAlumno();
+
 			break;
 		case 2:
-			registroProfesor();
-			
+			listaProfesor.insertar(registroProfesor());
+			listaProfesor.recorrer([&](Persona profesor) {
+				cout << "Profesor --> " << ++cont<<endl;
+				cout << "Nombre: " <<profesor.getNombre()<<endl;
+				cout << "Apellido: " <<profesor.getApellido()<<endl;
+				});
 			break;
+
 		case 3:
+		if(!listaProfesor.estaVacia()){
+			archivo.escribirArchivo(listaProfesor, "Profesores.txt");
+		}
+			//archivo.escribirArchivo(listaAlumno, "Alumnos.txt");
+			break;
+
+		case 4:
 			
+			exit( 1 );
 			break;
 		}
 		system("pause");
@@ -157,3 +225,57 @@ void Administrador::pantallaAdmin(void) {
 	
 }
 
+long int Administrador::validarCedula(long int cedula)
+{
+	int A[dim], i = 9, sumapar = 0, sumaimp = 0, sumatot, mult = 0, digito;
+	long int coc = 0, tmpCedula = 0;
+	do
+	{
+		i = 9;
+		sumapar = 0;
+		sumaimp = 0;
+		mult = 0;
+		digito = 0;
+		tmpCedula = cedula;
+		do
+		{
+			coc = cedula / 10;
+			A[i] = cedula % 10;
+			i--;
+			cedula = coc;
+		} while (coc != 0);
+
+		for (i = 0; i < dim - 1; i += 2)
+		{
+			mult = A[i] * 2;
+			if (mult > 9)
+			{
+				mult -= 9;
+			}
+			sumapar += mult;
+		}
+		for (i = 1; i < dim - 2; i += 2)
+		{
+			sumaimp += A[i];
+		}
+		sumatot = sumapar + sumaimp;
+		digito = 10 - (sumatot % 10);
+		if (digito == 10)
+		{
+			digito = 0;
+		}
+		if (digito == A[9])
+		{
+			printf("Cedula valida.\n");
+		}
+		else
+		{
+			printf("\nCedula invalida\nIngrese nuevamente: ");
+			fflush(stdin);
+			scanf_s("%ld", &cedula);
+			fflush(stdin);
+		}
+
+	} while (digito != A[9]);
+	return tmpCedula;
+}

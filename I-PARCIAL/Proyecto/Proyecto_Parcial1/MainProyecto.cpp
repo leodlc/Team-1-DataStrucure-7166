@@ -13,7 +13,7 @@
 #include <string>
 #include "Alumno.h"
 #include "Asignatura.h"
-#include "Fecha.h"
+
 #include "Profesor.h"
 #include "Persona.h"
 #include "Login.h"
@@ -21,6 +21,8 @@
 using namespace std;
 
 int main() {
+while(true){
 	login();
+}
 	return 0;
 }
