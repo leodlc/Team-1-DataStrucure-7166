@@ -1,2 +1,3 @@
 C:\Users\Asrock\Documents\grupo estructuras\Team-1-DataStrucure-7166\I-PARCIAL\Proyecto\Proyecto_Parcial1\x64\Debug\Proyecto_Parcial1.exe
 C:\Users\Asus\Desktop\RepositorioG1\Team-1-DataStrucure-7166\I-PARCIAL\Proyecto\Proyecto_Parcial1\x64\Debug\Proyecto_Parcial1.exe
+D:\u\progra\Estructura_de_Datos\2\1Github grupo\Team-DataStrucure-7166\I-PARCIAL\Proyecto\Proyecto_Parcial1\x64\Debug\Proyecto_Parcial1.exe

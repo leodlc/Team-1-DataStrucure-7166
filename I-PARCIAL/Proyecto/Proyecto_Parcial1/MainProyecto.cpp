@@ -21,8 +21,8 @@
 using namespace std;
 
 int main() {
-while(true){
-	login();
-}
+	while(true){
+		login();
+	}
 	return 0;
 }
