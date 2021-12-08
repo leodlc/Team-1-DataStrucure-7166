@@ -1,0 +1,82 @@
+﻿  Administrador.cpp
+C:\Users\Asus\Desktop\ProjectAltV3\Nodo.h(13,11): error C2079: 'Nodo::profesor' utiliza class 'Profesor' sin definir
+C:\Users\Asus\Desktop\ProjectAltV3\Validaciones.h(230,20): warning C4018: '<=': no coinciden signed/unsigned
+  Alumno.cpp
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(18,32): error C2061: error de sintaxis: identificador 'ListaCircularDoble'
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(19,24): error C3646: 'leerArchivoAlumno': especificador de invalidación desconocido
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(19,41): error C2059: error de sintaxis: '('
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(19,61): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(20,34): error C2061: error de sintaxis: identificador 'ListaCircularDoble'
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(21,24): error C3646: 'leerArchivoProfesor': especificador de invalidación desconocido
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(21,43): error C2059: error de sintaxis: '('
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(21,62): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Asus\Desktop\ProjectAltV3\Validaciones.h(230,20): warning C4018: '<=': no coinciden signed/unsigned
+  Archivo.cpp
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(18,32): error C2061: error de sintaxis: identificador 'ListaCircularDoble'
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(19,24): error C3646: 'leerArchivoAlumno': especificador de invalidación desconocido
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(19,41): error C2059: error de sintaxis: '('
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(19,61): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(20,34): error C2061: error de sintaxis: identificador 'ListaCircularDoble'
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(21,24): error C3646: 'leerArchivoProfesor': especificador de invalidación desconocido
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(21,43): error C2059: error de sintaxis: '('
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(21,62): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Asus\Desktop\ProjectAltV3\Validaciones.h(230,20): warning C4018: '<=': no coinciden signed/unsigned
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(14,15): error C2011: 'Archivo': nueva definición del tipo 'class'
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(14): message : vea la declaración de 'Archivo'
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.cpp(16,10): error C2027: uso del tipo 'Archivo' sin definir
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(14): message : vea la declaración de 'Archivo'
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.cpp(17,1): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.cpp(18,1): warning C4508: '{ctor}': la función debe devolver un valor; se supone que el tipo de valor devuelto es 'void'
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.cpp(20,15): error C2027: uso del tipo 'Archivo' sin definir
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(14): message : vea la declaración de 'Archivo'
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.cpp(50,29): error C2027: uso del tipo 'Archivo' sin definir
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(14): message : vea la declaración de 'Archivo'
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.cpp(95,15): error C2027: uso del tipo 'Archivo' sin definir
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(14): message : vea la declaración de 'Archivo'
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.cpp(120,29): error C2027: uso del tipo 'Archivo' sin definir
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(14): message : vea la declaración de 'Archivo'
+  Asignatura.cpp
+C:\Users\Asus\Desktop\ProjectAltV3\Nodo.h(13,11): error C2079: 'Nodo::profesor' utiliza class 'Profesor' sin definir
+C:\Users\Asus\Desktop\ProjectAltV3\Validaciones.h(230,20): warning C4018: '<=': no coinciden signed/unsigned
+  ListaCircularDoble.cpp
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(18,32): error C2061: error de sintaxis: identificador 'ListaCircularDoble'
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(19,24): error C3646: 'leerArchivoAlumno': especificador de invalidación desconocido
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(19,41): error C2059: error de sintaxis: '('
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(19,61): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(20,34): error C2061: error de sintaxis: identificador 'ListaCircularDoble'
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(21,24): error C3646: 'leerArchivoProfesor': especificador de invalidación desconocido
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(21,43): error C2059: error de sintaxis: '('
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(21,62): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Asus\Desktop\ProjectAltV3\Validaciones.h(230,20): warning C4018: '<=': no coinciden signed/unsigned
+  Login.cpp
+C:\Users\Asus\Desktop\ProjectAltV3\Nodo.h(13,11): error C2079: 'Nodo::profesor' utiliza class 'Profesor' sin definir
+C:\Users\Asus\Desktop\ProjectAltV3\Validaciones.h(230,20): warning C4018: '<=': no coinciden signed/unsigned
+C:\Users\Asus\Desktop\ProjectAltV3\Login.cpp(79,27): warning C4018: '<': no coinciden signed/unsigned
+  MainProyecto.cpp
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(18,32): error C2061: error de sintaxis: identificador 'ListaCircularDoble'
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(19,24): error C3646: 'leerArchivoAlumno': especificador de invalidación desconocido
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(19,41): error C2059: error de sintaxis: '('
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(19,61): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(20,34): error C2061: error de sintaxis: identificador 'ListaCircularDoble'
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(21,24): error C3646: 'leerArchivoProfesor': especificador de invalidación desconocido
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(21,43): error C2059: error de sintaxis: '('
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(21,62): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Asus\Desktop\ProjectAltV3\Validaciones.h(230,20): warning C4018: '<=': no coinciden signed/unsigned
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(14,15): error C2011: 'Archivo': nueva definición del tipo 'class'
+C:\Users\Asus\Desktop\ProjectAltV3\Archivo.h(14): message : vea la declaración de 'Archivo'
+C:\Users\Asus\Desktop\ProjectAltV3\MainProyecto.cpp(31,10): error C2079: 'archivo' utiliza class 'Archivo' sin definir
+  Nodo.cpp
+C:\Users\Asus\Desktop\ProjectAltV3\Validaciones.h(230,20): warning C4018: '<=': no coinciden signed/unsigned
+C:\Users\Asus\Desktop\ProjectAltV3\ListaCircularDoble.h(11,6): error C2143: error de sintaxis: falta ';' delante de '*'
+C:\Users\Asus\Desktop\ProjectAltV3\ListaCircularDoble.h(11,6): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Asus\Desktop\ProjectAltV3\ListaCircularDoble.h(11,15): error C2238: símbolos (token) inesperados delante de ';'
+C:\Users\Asus\Desktop\ProjectAltV3\ListaCircularDoble.h(12,6): error C2143: error de sintaxis: falta ';' delante de '*'
+C:\Users\Asus\Desktop\ProjectAltV3\ListaCircularDoble.h(12,6): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+C:\Users\Asus\Desktop\ProjectAltV3\ListaCircularDoble.h(12,14): error C2238: símbolos (token) inesperados delante de ';'
+  Persona.cpp
+C:\Users\Asus\Desktop\ProjectAltV3\Persona.cpp(117,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Asus\Desktop\ProjectAltV3\Persona.cpp(119,20): warning C4018: '<': no coinciden signed/unsigned
+  Profesor.cpp
+C:\Users\Asus\Desktop\ProjectAltV3\Nodo.h(13,11): error C2079: 'Nodo::profesor' utiliza class 'Profesor' sin definir
+C:\Users\Asus\Desktop\ProjectAltV3\Validaciones.h(230,20): warning C4018: '<=': no coinciden signed/unsigned
+  Generando código...
