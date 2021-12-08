@@ -2,7 +2,11 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< HEAD
       <FullPath>C:\Users\Asrock\Documents\grupo estructuras\Team-1-DataStrucure-7166\I-PARCIAL\Proyecto\Proyecto_Parcial1\x64\Debug\Proyecto_Parcial1.exe</FullPath>
+=======
+      <FullPath>D:\u\progra\Estructura_de_Datos\2\1Github grupo\Team-DataStrucure-7166\I-PARCIAL\Proyecto\Proyecto_Parcial1\x64\Debug\Proyecto_Parcial1.exe</FullPath>
+>>>>>>> cb76b49ceadc33dd13c6ae9414a1e34dde3d6706
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

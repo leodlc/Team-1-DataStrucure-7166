@@ -92,11 +92,10 @@ Administrador::~Administrador()
 // Return:     void
 ////////////////////////////////////////////////////////////////////////
 
-void Administrador::registrarAlumno(void)
+Alumno Administrador::registrarAlumno(void)
 {
 	
 	Alumno nuevoAlumno;
-
 	string dato;
 	long int CI = 0;
 	std::cout << "Ingrese el nombre: " << endl;
@@ -125,7 +124,7 @@ void Administrador::registrarAlumno(void)
 	std::cout << nuevoAlumno.getCorreo() << endl;
 
 
-
+	return nuevoAlumno;
 }
 
 ////////////////////////////////////////////////////////////////////////
@@ -187,6 +186,8 @@ void Administrador::pantallaAdmin(void) {
 	ListaCircularDoble listaAlumno;
 	Archivo archivo;
 	archivo.leerArchivo(listaProfesor, "Profesores.txt");
+	archivo.leerArchivo(listaAlumno, "Alumnos.txt");
+
 	do {
 		system("cls");
 		menuAdmin();
@@ -195,24 +196,29 @@ void Administrador::pantallaAdmin(void) {
 		switch (opc) {
 		case 1:
 			
-			registrarAlumno();
-
+			//registrarAlumno();
+			listaAlumno.insertar(registrarAlumno());
 			break;
 		case 2:
 			listaProfesor.insertar(registroProfesor());
-			listaProfesor.recorrer([&](Persona profesor) {
-				cout << "Profesor --> " << ++cont<<endl;
-				cout << "Nombre: " <<profesor.getNombre()<<endl;
-				cout << "Apellido: " <<profesor.getApellido()<<endl;
-				});
+			//listaProfesor.recorrer([&](Persona profesor) {
+			//	cout << "Profesor --> " << ++cont<<endl;
+			//	cout << "Nombre: " <<profesor.getNombre()<<endl;
+			//	cout << "Apellido: " <<profesor.getApellido()<<endl;
+			//	});
 			break;
 
 		case 3:
-		if(!listaProfesor.estaVacia()){
-			archivo.escribirArchivo(listaProfesor, "Profesores.txt");
-		}
-			//archivo.escribirArchivo(listaAlumno, "Alumnos.txt");
-			break;
+			if(!listaProfesor.estaVacia()){
+				archivo.escribirArchivo(listaProfesor, "Profesores.txt");
+				cout << "here1";
+			}
+			if (!listaAlumno.estaVacia()) {
+				archivo.escribirArchivo(listaAlumno, "Alumnos.txt");
+				cout << "here2";
+			}
+			cout << "here3";
+		break;
 
 		case 4:
 			
@@ -225,57 +231,57 @@ void Administrador::pantallaAdmin(void) {
 	
 }
 
-long int Administrador::validarCedula(long int cedula)
-{
-	int A[dim], i = 9, sumapar = 0, sumaimp = 0, sumatot, mult = 0, digito;
-	long int coc = 0, tmpCedula = 0;
-	do
-	{
-		i = 9;
-		sumapar = 0;
-		sumaimp = 0;
-		mult = 0;
-		digito = 0;
-		tmpCedula = cedula;
-		do
-		{
-			coc = cedula / 10;
-			A[i] = cedula % 10;
-			i--;
-			cedula = coc;
-		} while (coc != 0);
-
-		for (i = 0; i < dim - 1; i += 2)
-		{
-			mult = A[i] * 2;
-			if (mult > 9)
-			{
-				mult -= 9;
-			}
-			sumapar += mult;
-		}
-		for (i = 1; i < dim - 2; i += 2)
-		{
-			sumaimp += A[i];
-		}
-		sumatot = sumapar + sumaimp;
-		digito = 10 - (sumatot % 10);
-		if (digito == 10)
-		{
-			digito = 0;
-		}
-		if (digito == A[9])
-		{
-			printf("Cedula valida.\n");
-		}
-		else
-		{
-			printf("\nCedula invalida\nIngrese nuevamente: ");
-			fflush(stdin);
-			scanf_s("%ld", &cedula);
-			fflush(stdin);
-		}
-
-	} while (digito != A[9]);
-	return tmpCedula;
-}
+//long int Administrador::validarCedula(long int cedula)
+//{
+//	int A[dim], i = 9, sumapar = 0, sumaimp = 0, sumatot, mult = 0, digito;
+//	long int coc = 0, tmpCedula = 0;
+//	do
+//	{
+//		i = 9;
+//		sumapar = 0;
+//		sumaimp = 0;
+//		mult = 0;
+//		digito = 0;
+//		tmpCedula = cedula;
+//		do
+//		{
+//			coc = cedula / 10;
+//			A[i] = cedula % 10;
+//			i--;
+//			cedula = coc;
+//		} while (coc != 0);
+//
+//		for (i = 0; i < dim - 1; i += 2)
+//		{
+//			mult = A[i] * 2;
+//			if (mult > 9)
+//			{
+//				mult -= 9;
+//			}
+//			sumapar += mult;
+//		}
+//		for (i = 1; i < dim - 2; i += 2)
+//		{
+//			sumaimp += A[i];
+//		}
+//		sumatot = sumapar + sumaimp;
+//		digito = 10 - (sumatot % 10);
+//		if (digito == 10)
+//		{
+//			digito = 0;
+//		}
+//		if (digito == A[9])
+//		{
+//			printf("Cedula valida.\n");
+//		}
+//		else
+//		{
+//			printf("\nCedula invalida\nIngrese nuevamente: ");
+//			fflush(stdin);
+//			scanf_s("%ld", &cedula);
+//			fflush(stdin);
+//		}
+//
+//	} while (digito != A[9]);
+//	return tmpCedula;
+//}

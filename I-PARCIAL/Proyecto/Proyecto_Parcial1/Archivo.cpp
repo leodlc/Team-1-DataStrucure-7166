@@ -41,7 +41,8 @@ void Archivo::leerArchivo(ListaCircularDoble lista, string nombreArch)
     {
         cout << "ERROR!! EL ARCHIVO NO SE HA CREADO ";
         exit(1);
-    }if (EOF != (ch = getchar())){
+    }//if (EOF != (ch = getchar())){
+    if (!archivo.eof()) {
         cout << "here2";
     }
     else {

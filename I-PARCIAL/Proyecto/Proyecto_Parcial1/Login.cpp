@@ -18,6 +18,8 @@ void login() {
     vector<string> usuarios;
     vector<string> claves;
     Administrador admin;
+    /*ListaCircularDoble listaProfesor;
+    ListaCircularDoble listaEstudiante;*/
 
 
     // Se añaden usuarios al vector
@@ -73,6 +75,8 @@ void login() {
 
             caracter = _getch();
         }
+
+        //
 
         for (int i = 0; i < usuarios.size(); i++)
         {

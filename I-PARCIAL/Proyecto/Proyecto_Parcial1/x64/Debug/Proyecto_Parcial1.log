@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 ﻿  Proyecto_Parcial1.vcxproj -> C:\Users\Asrock\Documents\grupo estructuras\Team-1-DataStrucure-7166\I-PARCIAL\Proyecto\Proyecto_Parcial1\x64\Debug\Proyecto_Parcial1.exe
+=======
+﻿  Administrador.cpp
+D:\u\progra\Estructura_de_Datos\2\1Github grupo\Team-DataStrucure-7166\I-PARCIAL\Proyecto\Proyecto_Parcial1\Validaciones.h(69,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\u\progra\Estructura_de_Datos\2\1Github grupo\Team-DataStrucure-7166\I-PARCIAL\Proyecto\Proyecto_Parcial1\Validaciones.h(104,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\u\progra\Estructura_de_Datos\2\1Github grupo\Team-DataStrucure-7166\I-PARCIAL\Proyecto\Proyecto_Parcial1\Validaciones.h(147,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Proyecto_Parcial1.vcxproj -> D:\u\progra\Estructura_de_Datos\2\1Github grupo\Team-DataStrucure-7166\I-PARCIAL\Proyecto\Proyecto_Parcial1\x64\Debug\Proyecto_Parcial1.exe
+>>>>>>> cb76b49ceadc33dd13c6ae9414a1e34dde3d6706

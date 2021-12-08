@@ -1,0 +1,21 @@
+﻿  Administrador.cpp
+C:\Users\Asus\source\repos\ProyectoFInalPrimerParcial\Validaciones.h(229,20): warning C4018: '<=': no coinciden signed/unsigned
+  Alumno.cpp
+  Archivo.cpp
+C:\Users\Asus\source\repos\ProyectoFInalPrimerParcial\Validaciones.h(229,20): warning C4018: '<=': no coinciden signed/unsigned
+C:\Users\Asus\source\repos\ProyectoFInalPrimerParcial\Archivo.cpp(78,10): warning C4101: 'ch': variable local sin referencia
+  Asignatura.cpp
+  ListaCircularDoble.cpp
+C:\Users\Asus\source\repos\ProyectoFInalPrimerParcial\Validaciones.h(229,20): warning C4018: '<=': no coinciden signed/unsigned
+  Login.cpp
+C:\Users\Asus\source\repos\ProyectoFInalPrimerParcial\Validaciones.h(229,20): warning C4018: '<=': no coinciden signed/unsigned
+C:\Users\Asus\source\repos\ProyectoFInalPrimerParcial\Login.cpp(81,27): warning C4018: '<': no coinciden signed/unsigned
+  MainProyecto.cpp
+C:\Users\Asus\source\repos\ProyectoFInalPrimerParcial\Validaciones.h(229,20): warning C4018: '<=': no coinciden signed/unsigned
+  Nodo.cpp
+  Persona.cpp
+C:\Users\Asus\source\repos\ProyectoFInalPrimerParcial\Persona.cpp(117,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Asus\source\repos\ProyectoFInalPrimerParcial\Persona.cpp(119,20): warning C4018: '<': no coinciden signed/unsigned
+  Profesor.cpp
+  Generando código...
+  ProyectoFInalPrimerParcial.vcxproj -> C:\Users\Asus\source\repos\ProyectoFInalPrimerParcial\Debug\ProyectoFInalPrimerParcial.exe

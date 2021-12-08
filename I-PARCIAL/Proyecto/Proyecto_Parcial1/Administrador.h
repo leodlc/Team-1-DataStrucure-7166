@@ -10,6 +10,7 @@
 #include "Profesor.h"
 #include <stdlib.h>
 #include "ListaCircularDoble.h"
+#include "validaciones.h"
 
 using namespace std;
 
@@ -22,10 +23,10 @@ public:
 	void setContrasena(std::string newContrasena);
 	Administrador();
 	~Administrador();
-	void registrarAlumno(void);
+	Alumno registrarAlumno(void);
 	Profesor registroProfesor(void);
 	void pantallaAdmin(void);
-	long int validarCedula(long int a);
+	//long int validarCedula(long int a);
 	//void menuAdmin();
 
 
