@@ -1,0 +1,10 @@
+﻿  Archivo.cpp
+C:\Users\Asrock\Desktop\proyecto\Validaciones.h(69,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Asrock\Desktop\proyecto\Validaciones.h(104,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Asrock\Desktop\proyecto\Validaciones.h(147,28): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Asrock\Desktop\proyecto\Archivo.cpp(55,10): warning C4101: 'ch': unreferenced local variable
+C:\Users\Asrock\Desktop\proyecto\Archivo.cpp(125,10): warning C4101: 'ch': unreferenced local variable
+  Asignatura.cpp
+  Profesor.cpp
+  Generating Code...
+  ProjectAltV2.vcxproj -> C:\Users\Asrock\source\repos\ProjectAltV2\x64\Debug\ProjectAltV2.exe
