@@ -1,8 +1,0 @@
-﻿  Conjunto.cpp
-C:\Users\Asrock\Documents\SEMESTRE OCT21-MAR22\Estructura de datos\Proyectos ED C++ visual\ConjuntoSobrecarga\Conjunto.cpp(19,1): error C2958: the left bracket '[' found at 'C:\Users\Asrock\Documents\SEMESTRE OCT21-MAR22\Estructura de datos\Proyectos ED C++ visual\ConjuntoSobrecarga\Conjunto.cpp(18)' was not matched correctly
-C:\Users\Asrock\Documents\SEMESTRE OCT21-MAR22\Estructura de datos\Proyectos ED C++ visual\ConjuntoSobrecarga\Conjunto.cpp(18,28): error C2760: syntax error: unexpected token ';', expected 'expression'
-  ConjuntoSobrecarga.cpp
-C:\Users\Asrock\Documents\SEMESTRE OCT21-MAR22\Estructura de datos\Proyectos ED C++ visual\ConjuntoSobrecarga\Operaciones.h(11,1): error C2109: subscript requires array or pointer type
-C:\Users\Asrock\Documents\SEMESTRE OCT21-MAR22\Estructura de datos\Proyectos ED C++ visual\ConjuntoSobrecarga\ConjuntoSobrecarga.cpp(52): message : see reference to function template instantiation 'void interseccion<int>(Conjunto<int>,Conjunto<int>)' being compiled
-C:\Users\Asrock\Documents\SEMESTRE OCT21-MAR22\Estructura de datos\Proyectos ED C++ visual\ConjuntoSobrecarga\Operaciones.h(12,1): error C2109: subscript requires array or pointer type
-  Generating Code...

@@ -1,7 +1,0 @@
-﻿  Conjunto.cpp
-C:\Users\Asrock\Documents\SEMESTRE OCT21-MAR22\Estructura de datos\Proyectos ED C++ visual\ConjuntoSobrecarga\Conjunto.cpp(31,21): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\Asrock\Documents\SEMESTRE OCT21-MAR22\Estructura de datos\Proyectos ED C++ visual\ConjuntoSobrecarga\Conjunto.cpp(30): message : while compiling class template member function 'Conjunto<int> &Conjunto<int>::operator ==(const Conjunto<int> &)'
-C:\Users\Asrock\Documents\SEMESTRE OCT21-MAR22\Estructura de datos\Proyectos ED C++ visual\ConjuntoSobrecarga\Conjunto.cpp(35): message : see reference to class template instantiation 'Conjunto<int>' being compiled
-  ConjuntoSobrecarga.cpp
-  Generating Code...
-  ConjuntoSobrecarga.vcxproj -> C:\Users\Asrock\Documents\SEMESTRE OCT21-MAR22\Estructura de datos\Proyectos ED C++ visual\ConjuntoSobrecarga\Debug\ConjuntoSobrecarga.exe
