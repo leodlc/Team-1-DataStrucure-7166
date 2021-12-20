@@ -1,0 +1,88 @@
+﻿  Taller.cpp
+C:\Users\User\Desktop\Taller1P2\Taller mcm mcd\Taller mcm mcd\Taller mcm mcd\Taller mcm mcd\Taller.cpp(80,31): warning C4244: 'argumento': conversión de 'int' a '_Ty'; posible pérdida de datos
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\User\Desktop\Taller1P2\Taller mcm mcd\Taller mcm mcd\Taller mcm mcd\Taller mcm mcd\Taller.cpp(86,27): warning C4244: 'argumento': conversión de 'int' a '_Ty'; posible pérdida de datos
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\User\Desktop\Taller1P2\Taller mcm mcd\Taller mcm mcd\Taller mcm mcd\Taller mcm mcd\Taller.cpp(66,10): warning C4101: 'op': variable local sin referencia
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(714,47): warning C4244: 'inicializando': conversión de 'const float' a '_Objty'; posible pérdida de datos
+          with
+          [
+              _Objty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(1630): message : Vea la referencia a la creación de una instancia de la función plantilla "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const float&>(_Alloc &,_Objty *const ,const float &)" que se está compilando
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Ty=int,
+              _Objty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(1631): message : Vea la referencia a la creación de una instancia de la función plantilla "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const float&>(_Alloc &,_Objty *const ,const float &)" que se está compilando
+          with
+          [
+              _Alloc=std::allocator<int>,
+              _Ty=int,
+              _Objty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(1671): message : Vea la referencia a la creación de una instancia de la función plantilla "void std::_Uninitialized_backout_al<_Alloc>::_Emplace_back<const float&>(const float &)" que se está compilando
+          with
+          [
+              _Alloc=std::allocator<int>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(1671): message : Vea la referencia a la creación de una instancia de la función plantilla "void std::_Uninitialized_backout_al<_Alloc>::_Emplace_back<const float&>(const float &)" que se está compilando
+          with
+          [
+              _Alloc=std::allocator<int>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1654): message : Vea la referencia a la creación de una instancia de la función plantilla "int *std::_Uninitialized_copy<_Iter,std::allocator<int>>(const _InIt,const _InIt,int *,_Alloc &)" que se está compilando
+          with
+          [
+              _Iter=const float *,
+              _InIt=const float *,
+              _Alloc=std::allocator<int>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(530): message : Vea la referencia a la creación de una instancia de la función plantilla "int *std::vector<int,std::allocator<int>>::_Ucopy<_Iter>(_Iter,_Iter,int *)" que se está compilando
+          with
+          [
+              _Iter=const float *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(530): message : Vea la referencia a la creación de una instancia de la función plantilla "int *std::vector<int,std::allocator<int>>::_Ucopy<_Iter>(_Iter,_Iter,int *)" que se está compilando
+          with
+          [
+              _Iter=const float *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(542): message : Vea la referencia a la creación de una instancia de la función plantilla "void std::vector<int,std::allocator<int>>::_Range_construct_or_tidy<const float*>(_Iter,_Iter,std::forward_iterator_tag)" que se está compilando
+          with
+          [
+              _Iter=const float *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(542): message : Vea la referencia a la creación de una instancia de la función plantilla "void std::vector<int,std::allocator<int>>::_Range_construct_or_tidy<const float*>(_Iter,_Iter,std::forward_iterator_tag)" que se está compilando
+          with
+          [
+              _Iter=const float *
+          ]
+C:\Users\User\Desktop\Taller1P2\Taller mcm mcd\Taller mcm mcd\Taller mcm mcd\Taller mcm mcd\Operaciones.h(41): message : Vea la referencia a la creación de una instancia de la función plantilla "std::vector<int,std::allocator<int>>::vector<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,0>(_Iter,_Iter,const _Alloc &)" que se está compilando
+          with
+          [
+              _Ty=float,
+              _Iter=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<float>>>,
+              _Alloc=std::allocator<int>
+          ]
+C:\Users\User\Desktop\Taller1P2\Taller mcm mcd\Taller mcm mcd\Taller mcm mcd\Taller mcm mcd\Operaciones.h(41): message : Vea la referencia a la creación de una instancia de la función plantilla "std::vector<int,std::allocator<int>>::vector<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,0>(_Iter,_Iter,const _Alloc &)" que se está compilando
+          with
+          [
+              _Ty=float,
+              _Iter=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<float>>>,
+              _Alloc=std::allocator<int>
+          ]
+C:\Users\User\Desktop\Taller1P2\Taller mcm mcd\Taller mcm mcd\Taller mcm mcd\Taller mcm mcd\Taller.cpp(89): message : Vea la referencia a la creación de una instancia de la función plantilla "int operaciones::maximo_n<std::vector<float,std::allocator<float>>,float,void>(const C &)" que se está compilando
+          with
+          [
+              C=std::vector<float,std::allocator<float>>
+          ]
+  Taller mcm mcd.vcxproj -> C:\Users\User\Desktop\Taller1P2\Taller mcm mcd\Taller mcm mcd\Taller mcm mcd\Debug\Taller mcm mcd.exe
